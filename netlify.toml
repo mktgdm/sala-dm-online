@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+
+# arquivos de apoio que não precisam ficar públicos
+[[redirects]]
+  from = "/apps-script/*"
+  to = "/"
+  status = 404
+  force = true
